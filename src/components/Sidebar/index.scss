@@ -1,0 +1,74 @@
+.nav-bar {
+
+    nav {
+        background: #342c87;
+
+        a {
+            color: #ffd700;
+            display: inline-block;
+            font-size: 130%;
+            margin: 0 9% 0 9%;
+            line-height: 51px;
+            position: relative;
+
+
+            i {
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover {
+                color: #ffd700;
+
+                svg {
+                    opacity: 0;
+                }
+
+                &:after {
+                    opacity: 1;
+                }
+            }
+
+            &:after {
+                font-size: 9px;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                opacity: 0;
+                -webkit-transition: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+            }
+
+            &:first-child {
+                &::after {
+                    content: 'HOME';
+                }
+            }
+        }
+
+        a.home-link {
+            &:after {
+                content: 'HOME';
+            }
+        }
+
+        a.about-link {
+            &:after {
+                content: 'ABOUT';
+            }
+        }
+
+        a.contact-link {
+            &:after {
+                content: 'CONTACT';
+            }
+        }
+
+        a.store-link {
+            &:after {
+                content: 'STORE';
+            }
+        }
+    }
+}
