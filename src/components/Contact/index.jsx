@@ -1,15 +1,20 @@
 import './index.css'
-import { faArtstation, faDeviantart, faDiscord, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faArtstation, faDeviantart, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Player } from 'video-react';
+import React from 'react';
+import Video1 from '../../assets/Video1.mp4'
+import YoutubeEmbed from '../YoutubeEmbed';
+// import '~video-react/dist/video-react.css'
 
 export default function Contact() {
     return (
         <div>
             <div className='links'>
-                <a target='_blank' className='Instagram' rel='noreferrer' href='https://www.instagram.com/critterbug.art/'>
+                <a target='_blank' className='Instagram' rel='noreferrer' href='https://www.instagram.com/ArtBySpeckles/'>
                     <FontAwesomeIcon icon={faInstagram} color='#99738e' />
                 </a>
-                {/* change the one above */}
+
                 <a target='_blank' className='Twitter' rel='noreferrer' href='https://twitter.com/ArtbySpecks'>
                     <FontAwesomeIcon icon={faTwitter} color='#99738e' />
                 </a>
@@ -23,6 +28,10 @@ export default function Contact() {
                     <FontAwesomeIcon icon={faArtstation} color='#99738e' />
                 </a>
             </div>
+
+            <div className='Youtube-video' ><YoutubeEmbed embedId="YYVZ6a4uBog" /></div>
+
+            <div className='Instagram-reel'></div>
         </div>
     )
 }
