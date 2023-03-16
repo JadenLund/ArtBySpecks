@@ -8,7 +8,7 @@ export const Sidebar = () => {
 
 
         <div className='nav-bar'>
-            <h1 className='Sidebar-title'>Critterbug.Art</h1>
+            <h1 className='Sidebar-title'>Art By Specks</h1>
             <nav>
                 <NavLink exact='true' activeclassname='active' className='home-link' to='/'>
                     <FontAwesomeIcon icon={faHome} color='#4d4d4de' />

@@ -1,11 +1,10 @@
 import './index.css'
 import { faArtstation, faDeviantart, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Player } from 'video-react';
 import React from 'react';
-import Video1 from '../../assets/Video1.mp4'
 import YoutubeEmbed from '../YoutubeEmbed';
-// import '~video-react/dist/video-react.css'
+import SideScroll from '../SideScroll';
+
 
 export default function Contact() {
     return (
@@ -31,7 +30,7 @@ export default function Contact() {
 
             <div className='Youtube-video' ><YoutubeEmbed embedId="YYVZ6a4uBog" /></div>
 
-            <div className='Instagram-reel'></div>
+            <div className='Instagram-reel'><SideScroll /></div>
         </div>
     )
 }
