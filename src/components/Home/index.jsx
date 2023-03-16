@@ -20,9 +20,10 @@ import Image18 from '../../assets/Image18.png'
 import Image19 from '../../assets/Image19.png'
 import Image20 from '../../assets/Image20.png'
 
-import Gif3 from '../../assets/Gif3.gif'
 import Gif1 from '../../assets/Gif1.gif'
 import Gif2 from '../../assets/Gif2.gif'
+import Gif3 from '../../assets/Gif3.gif'
+import Gif4 from '../../assets/Gif4.gif'
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
             <img className='Gif1' src={Gif1} alt='Gif1' />
             <img className='Gif2' src={Gif2} alt='Gif2' />
             <img className='Gif3' src={Gif3} alt='Gif3' />
+            <img className='Gif4' src={Gif4} alt='Gif4' />
             <img className='Image1' src={Image1} alt='Image1' />
             <img className='Image2' src={Image2} alt='Image2' />
             <img className='Image3' src={Image3} alt='Image3' />
