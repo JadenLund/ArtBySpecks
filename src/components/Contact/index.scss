@@ -1,0 +1,25 @@
+/* change the size of the a */
+a.instagram-link,
+a.twitter-link,
+a.deviantart-link,
+a.youtube-link,
+a.artstation-link {
+    font-size: 4em;
+    margin: 3%;
+
+
+    &:hover {
+        background-color: #E69FAB;
+        border-radius: 5%;
+    }
+}
+
+.links.a {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+
+// to channge the size i have to change the svg itself
+//this is fixed by going to the a and choosing font-size rather than width and height
