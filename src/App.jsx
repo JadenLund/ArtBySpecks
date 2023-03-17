@@ -6,12 +6,14 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Store from './components/Store';
+import ParticleJS from './components/ParticleJs';
 
 
 
 function App() {
   return (
     <div>
+      {/* <ParticleJS /> */}
       <>
         <Sidebar />
         <Routes>
@@ -19,8 +21,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/store" element={<Store />} />
-        </Routes>
-      </></div>
+        </Routes></>
+    </div>
   );
 }
 

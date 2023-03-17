@@ -5,19 +5,24 @@ a.deviantart-link,
 a.youtube-link,
 a.artstation-link {
     font-size: 4em;
+    // text-align: center;
+
+
+}
+
+.link-containers {
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    background-color: #E69FAB;
     margin: 3%;
 
 
     &:hover {
-        background-color: #E69FAB;
-        border-radius: 5%;
+        background-color: #d7919c;
+        border-radius: 10%;
     }
-}
 
-.links.a {
-    width: 100px;
-    height: 100px;
-    background-color: black;
 }
 
 
