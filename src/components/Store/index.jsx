@@ -2,10 +2,10 @@ import './index.css'
 
 export default function Store() {
     return (
-        <div>
-            <div href="https://www.redbubble.com/people/ArtBySpecks/shop"> Redbubble </div>
-            <div href="https://www.etsy.com/shop/artbyspecks/?etsrc=sdt"> Etsy </div>
-            <div href="no link yet"> Fiverr </div>
+        <div className='store-links'>
+            <a target='_blank' href="https://www.redbubble.com/people/ArtBySpecks/shop"> Redbubble </a>
+            <a target='_blank' href="https://www.etsy.com/shop/artbyspecks/?etsrc=sdt"> Etsy </a>
+            <a target='_blank' href="no link yet"> Fiverr </a>
         </div>
     )
 }

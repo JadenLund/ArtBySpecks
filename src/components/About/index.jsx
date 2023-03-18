@@ -5,7 +5,7 @@ import ParticleJS from '../ParticleJs'
 export default function About() {
     return (
         <>
-            <ParticleJS />
+            {/* <ParticleJS /> */}
             <div className='about-container'>
 
                 <img className='ProfilePhoto' src={ProfilePhoto} alt='ProfilePhoto' />
