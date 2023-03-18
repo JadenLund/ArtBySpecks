@@ -16,23 +16,25 @@ import Image14 from '../../assets/Image14.png'
 import Image15 from '../../assets/Image15.png'
 import Image16 from '../../assets/Image16.png'
 import Image17 from '../../assets/Image17.png'
-import Image18 from '../../assets/Image18.png'
-import Image19 from '../../assets/Image19.png'
-import Image20 from '../../assets/Image20.png'
+// import Image18 from '../../assets/Image18.png'
+// import Image19 from '../../assets/Image19.png'
+// import Image20 from '../../assets/Image20.png'
 
 import Gif1 from '../../assets/Gif1.gif'
 import Gif2 from '../../assets/Gif2.gif'
 import Gif3 from '../../assets/Gif3.gif'
 import Gif4 from '../../assets/Gif4.gif'
+import Gif5 from '../../assets/Gif5.gif'
 
 
 export default function Home() {
     return (
-        <div>
+        <div className='image-container'>
             <img className='Gif1' src={Gif1} alt='Gif1' />
             <img className='Gif2' src={Gif2} alt='Gif2' />
             <img className='Gif3' src={Gif3} alt='Gif3' />
             <img className='Gif4' src={Gif4} alt='Gif4' />
+            <img className='Gif5' src={Gif5} alt='Gif5' />
             <img className='Image1' src={Image1} alt='Image1' />
             <img className='Image2' src={Image2} alt='Image2' />
             <img className='Image3' src={Image3} alt='Image3' />
@@ -50,9 +52,9 @@ export default function Home() {
             <img className='Image15' src={Image15} alt='Image15' />
             <img className='Image16' src={Image16} alt='Image16' />
             <img className='Image17' src={Image17} alt='Image17' />
-            <img className='Image18' src={Image18} alt='Image18' />
+            {/* <img className='Image18' src={Image18} alt='Image18' />
             <img className='Image19' src={Image19} alt='Image19' />
-            <img className='Image20' src={Image20} alt='Image20' />
+            <img className='Image20' src={Image20} alt='Image20' /> */}
 
         </div>
     )

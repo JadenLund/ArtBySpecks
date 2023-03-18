@@ -4,3 +4,8 @@ img {
     border-radius: 5%;
     margin: 3px;
 }
+
+.image-container {
+    /* margin-top: 0px; */
+    padding-top: 200px;
+}

@@ -1,6 +1,8 @@
 .ProfilePhoto {
     display: inline-block;
     width: 30%;
+    padding-top: 200px;
+    /* z-index: -1; */
 
 }
 
@@ -9,4 +11,8 @@ p {
     width: 30%;
 }
 
-.about-container {}
+
+.about-container {
+    z-index: 100;
+    position: relative;
+}

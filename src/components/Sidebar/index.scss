@@ -1,4 +1,6 @@
 .nav-bar {
+    position: fixed;
+    width: 90%;
 
     .Sidebar-title {
         background: #342c87;
@@ -7,6 +9,9 @@
 
     nav {
         background: #342c87;
+
+
+
 
         a {
             color: #ffd700;
